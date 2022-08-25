@@ -24,7 +24,7 @@ void init_queue(QueueType *q) {
 void queue_print(QueueType *q) {
     for (int i = 0; i < MAX_QUEUE_SIZE; i++) {
         if ( i <= q->front || i > q->rear)
-            printf(" | ");
+            printf("   | ");
         else
             printf("%d | ", q->data[i]);
     }
