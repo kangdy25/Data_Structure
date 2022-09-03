@@ -15,4 +15,4 @@
 ### CH 4 - 스택 자료구조 (Stack - Data Structure)
 * [스택](https://kangdy25.tistory.com/58)
 ### CH 5 - 큐 자료구조 (Queue - Data Structure)
-* [큐](#) 
+* [큐](https://kangdy25.tistory.com/69) 
