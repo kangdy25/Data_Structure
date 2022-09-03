@@ -2,7 +2,9 @@
 ### Data Stucture in C
 
 <img src = "https://user-images.githubusercontent.com/58673491/188276390-3f811c43-c277-4de3-9a20-efa28e9eb6e8.png"/>
+
 - - -
+
 ### Ch 1 - 알고리즘 성능 분석 (Analysis Algorithm Performance)
 * [시간 복잡도 (Time Complexity)](https://kangdy25.tistory.com/33) 
 * [공간 복잡도 (Space Complexity)](https://kangdy25.tistory.com/34?category=1023454)
