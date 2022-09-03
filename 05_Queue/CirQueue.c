@@ -61,8 +61,8 @@ element dequeue(QueueType *q) {
     return q->data[q->front];
 }
 
-// 피크 함수
-element peek(QueueType *q) {
+// front 가져오기
+element get_front(QueueType *q) {
     if (is_empty(q))
         error("큐가 공백상태입니다.");
     return q->data[(q->front + 1) % MAX_QUEUE_SIZE];
