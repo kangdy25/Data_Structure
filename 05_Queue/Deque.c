@@ -3,7 +3,7 @@
 
 #define MAX_QUEUE_SIZE 5
 typedef int element;
-typedef struct { // 큐 타입
+typedef struct { // 덱 타입
     element data[MAX_QUEUE_SIZE];
     int front, rear;
 } DequeType;
@@ -15,89 +15,89 @@ void error(char *message) {
 }
 
 // 초기화 
-void init_deque(DequeType *q) {
-    q->front = q->rear = 0;
+void init_deque(DequeType *d) {
+    d->front = d->rear = 0;
 }
 
 // 공백 상태 검출 함수
-int is_empty(DequeType *q) {
-    return (q->front == q->rear);
+int is_empty(DequeType *d) {
+    return (d->front == d->rear);
 }
 
 // 포화 상태 검출 함수
-int is_full(DequeType *q) {
-    return ((q->rear + 1) % MAX_QUEUE_SIZE == q->front);
+int is_full(DequeType *d) {
+    return ((d->rear + 1) % MAX_QUEUE_SIZE == d->front);
 }
 
-// 원형 큐 출력 함수
-void deque_print(DequeType *q) {
-    printf("DEQUE(front=%d rear=%d) = ", q->front, q->rear);
-    if(!is_empty(q)) {
-        int i = q->front;
+// 덱 출력 함수
+void deque_print(DequeType *d) {
+    printf("DEQUE(front=%d rear=%d) = ", d->front, d->rear);
+    if(!is_empty(d)) {
+        int i = d->front;
         do {
             i = (i + 1) % (MAX_QUEUE_SIZE);
-            printf("%d | ", q->data[i]);
-            if(i == q->rear)
+            printf("%d | ", d->data[i]);
+            if(i == d->rear)
                 break;
-        } while (i != q->front);
+        } while (i != d->front);
     }
     printf("\n");
 }
 
 // 삽입 함수
-void add_rear(DequeType *q, element item) {
-    if(is_full(q))
-        error("큐가 포화상태입니다.");
-    q->rear = (q->rear + 1) % MAX_QUEUE_SIZE;
-    q->data[q->rear] = item;
+void add_rear(DequeType *d, element item) {
+    if(is_full(d))
+        error("덱이 포화상태입니다.");
+    d->rear = (d->rear + 1) % MAX_QUEUE_SIZE;
+    d->data[d->rear] = item;
 }
 
 // 삭제 함수
-element delete_front(DequeType *q) {
-    if (is_empty(q)) 
-        error("큐가 공백상태입니다.");
-    q->front = (q->front + 1) % MAX_QUEUE_SIZE;
-    return q->data[q->front];
+element delete_front(DequeType *d) {
+    if (is_empty(d)) 
+        error("덱이 공백상태입니다.");
+    d->front = (d->front + 1) % MAX_QUEUE_SIZE;
+    return d->data[d->front];
 }
 
-element get_front(DequeType *q) {
-    if (is_empty(q)) 
-        error("큐가 공백상태입니다.");
-    return q->data[(q->front + 1) % MAX_QUEUE_SIZE];
+element get_front(DequeType *d) {
+    if (is_empty(d)) 
+        error("덱이 공백상태입니다.");
+    return d->data[(d->front + 1) % MAX_QUEUE_SIZE];
 }
 
-void add_front(DequeType *q, element val) {
-    if (is_full(q))
-        error("큐가 포화상태입니다.");
-    q->data[q->front] = val;
-    q->front = (q->front - 1 + MAX_QUEUE_SIZE) % MAX_QUEUE_SIZE;
+void add_front(DequeType *d, element val) {
+    if (is_full(d))
+        error("덱이 포화상태입니다.");
+    d->data[d->front] = val;
+    d->front = (d->front - 1 + MAX_QUEUE_SIZE) % MAX_QUEUE_SIZE;
 }
 
-element delete_rear(DequeType *q) {
-    int prev = q->rear;
-    if (is_empty(q))
-        error("큐가 공백상태입니다.");
-    q->rear = (q->rear - 1 + MAX_QUEUE_SIZE) % MAX_QUEUE_SIZE;
-    return q->data[prev];
+element delete_rear(DequeType *d) {
+    int prev = d->rear;
+    if (is_empty(d))
+        error("덱이 공백상태입니다.");
+    d->rear = (d->rear - 1 + MAX_QUEUE_SIZE) % MAX_QUEUE_SIZE;
+    return d->data[prev];
 }
 
-element get_rear(DequeType *q) {
-    if (is_empty(q))
-        error("큐가 공백상태입니다.");
-    return q->data[q->rear];
+element get_rear(DequeType *d) {
+    if (is_empty(d))
+        error("덱이 공백상태입니다.");
+    return d->data[d->rear];
 }
 
 int main() {
-    DequeType queue;
+    DequeType deque;
 
-    init_deque(&queue);
+    init_deque(&deque);
     for (int i = 0; i < 3; i++) {
-        add_front(&queue, i);
-        deque_print(&queue);
+        add_front(&deque, i);
+        deque_print(&deque);
     }
     for (int i = 0; i < 3; i++) {
-        delete_rear(&queue);
-        deque_print(&queue);
+        delete_rear(&deque);
+        deque_print(&deque);
     }  
     return 0;
 }
