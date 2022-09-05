@@ -18,3 +18,7 @@
 * [스택 (Stack Data-Structure)](https://kangdy25.tistory.com/58)
 ### CH 5 - 큐 자료구조 (Queue - Data Structure)
 * [큐 (Queue Data-Structure)](https://kangdy25.tistory.com/69) 
+### CH 6 - 연결 리스트 자료구조 (Linked List - Data Structure)
+* [단순 연결 리스트](#)
+* [원형 연결 리스트, 이중 연결 리스트](#)
+* [연결된 스택과 연결된 큐](#)
