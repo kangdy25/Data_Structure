@@ -23,7 +23,7 @@ void print_list(ListNode *head) {
 ListNode* insert_first(ListNode* head, element data) {
     ListNode *node = (ListNode *)malloc(sizeof(ListNode));
     node->data = data;
-    if (head == NULL); {
+    if (head == NULL) {
         head = node;
         node->link = head;
     }
