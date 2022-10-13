@@ -21,8 +21,13 @@
 ### CH 6 - 연결 리스트 자료구조 (Linked List - Data Structure)
 * [단순 연결 리스트 (Singly Linked List)](https://kangdy25.tistory.com/81)
 * [원형 연결 리스트, 이중 연결 리스트 (Circular Linked List, Doubly Linked List)](https://kangdy25.tistory.com/82?category=1023454)
-* [연결된 스택과 연결된 큐 (Linked Stack, Linked Queue)](#)
-### CH  7 - 트리 자료구조 (Tree - Data Structure)
+* [연결된 스택과 연결된 큐 (Linked Stack, Linked Queue)](https://kangdy25.tistory.com/83)
+### CH 7 - 트리 자료구조 (Tree - Data Structure)
 * [트리, 이진 트리 (Tree Data-Structure, Binary Tree)](#)
 * [이진 트리의 순회 (Traversal of Binary Tree)](#)
 * [스레드 이진 트리, 이진 탐색 트리(Threaded Binary Tree, Binary Search Tree)](#)
+### CH 8 - 우선순위 큐 (Priority Queue - Data Structure)
+* [히프 (Heap)](#)
+* [우선순위 큐 (Priority Queue)](#)
+
+
