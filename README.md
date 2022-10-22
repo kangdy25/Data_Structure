@@ -1,12 +1,14 @@
-# Data Structure
+# 💻 자료구조 (Data Structure) 💻
+
+<img src = "https://user-images.githubusercontent.com/58673491/188276390-3f811c43-c277-4de3-9a20-efa28e9eb6e8.png"/>
+- - -
+## 🎯 학습 목표 🎯
 
 컴퓨터 과학 및 공학 분야의 중요하고 기초적인 과목인 자료구조에 관하여 학습한다. 
 자료구조를 통하여 효율적이고 체계적인 프로그래밍 기법을 습득하도록 한다.
 대표적인 Low Level 언어인 C를 통하여 기본적인 자료구조와 알고리즘들을 구현해보도록 한다.
-
-<img src = "https://user-images.githubusercontent.com/58673491/188276390-3f811c43-c277-4de3-9a20-efa28e9eb6e8.png"/>
-
 - - -
+## 📝 목차 (Index) 📝
 
 ### Ch 1 - 알고리즘 성능 분석 (Analysis Algorithm Performance)
 * [시간 복잡도 (Time Complexity)](https://kangdy25.tistory.com/33) 
