@@ -32,11 +32,11 @@
 * [원형 연결 리스트, 이중 연결 리스트 (Circular Linked List, Doubly Linked List)](https://kangdy25.tistory.com/82?category=1023454)
 * [연결된 스택과 연결된 큐 (Linked Stack, Linked Queue)](https://kangdy25.tistory.com/83)
 ### CH 7 - 트리 자료구조 (Tree - Data Structure)
-* [트리, 이진 트리 (Tree Data-Structure, Binary Tree)](#)
+* [트리, 이진 트리 (Tree Data-Structure, Binary Tree)](https://kangdy25.tistory.com/87)
 * [이진 트리의 순회 (Traversal of Binary Tree)](#)
 ### CH 8 - 우선순위 큐 (Priority Queue - Data Structure)
 * [우선순위 큐와 히프 (Priority Queue, Heap)](#)
 ### CH 9 - 그래프 자료구조 (Graph - Data Structure)
-* [그래프 (Graph Data-Structure](#)
+* [그래프 (Graph Data-Structure)](#)
 
 - - -
