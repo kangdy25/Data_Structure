@@ -35,7 +35,7 @@
 * [트리, 이진 트리 (Tree Data-Structure, Binary Tree)](https://kangdy25.tistory.com/87)
 * [이진 트리의 순회 (Traversal of Binary Tree)](https://kangdy25.tistory.com/101)
 ### CH 8 - 우선순위 큐 (Priority Queue - Data Structure)
-* [우선순위 큐와 히프 (Priority Queue, Heap)](#)
+* [우선순위 큐와 히프 (Priority Queue, Heap)](https://kangdy25.tistory.com/102)
 ### CH 9 - 그래프 자료구조 (Graph - Data Structure)
 * [그래프 (Graph Data-Structure)](#)
 ### CH 10 - 해시 테이블 자료구조 (Hash Table - Data Structure)
