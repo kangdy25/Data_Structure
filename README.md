@@ -38,6 +38,10 @@
 * [우선순위 큐와 히프 (Priority Queue, Heap)](https://kangdy25.tistory.com/102)
 ### CH 9 - 그래프 자료구조 (Graph - Data Structure)
 * [그래프 (Graph Data-Structure)](https://kangdy25.tistory.com/104)
-### CH 10 - 해시 테이블 자료구조 (Hash Table - Data Structure)
+### CH 10 - 정렬 알고리즘 (Sorting - Algorithm) 
+* [정렬 알고리즘 (Sorting Algorithm)](#)
+### CH 11 - 탐색 알고리즘 (Searching Algorithm)
+* [탐색 알고리즘 (Searching Algorithm)](#)
+### CH 12 - 해시 테이블 자료구조 (Hash Table - Data Structure)
 * [해시 테이블 (Hash Table Data-Structure)](#)
 - - -
