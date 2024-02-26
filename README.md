@@ -40,7 +40,7 @@
 * [그래프 (Graph Data-Structure)](https://kangdy25.tistory.com/104)
 ### CH 10 - 정렬 알고리즘 (Sorting - Algorithm) 
 * [정렬 알고리즘 (Sorting Algorithm)](https://kangdy25.tistory.com/106)
-### CH 11 - 탐색 알고리즘 (Searching Algorithm)
+### CH 11 - 탐색 알고리즘 (Searching - Algorithm)
 * [탐색 알고리즘 (Searching Algorithm)](https://kangdy25.tistory.com/107)
 ### CH 12 - 해시 테이블 자료구조 (Hash Table - Data Structure)
 * [해시 테이블 (Hash Table Data-Structure)](https://kangdy25.tistory.com/108)
